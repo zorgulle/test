@@ -7,3 +7,5 @@ deploy:
   provider: heroku
   api_key:
     secure: bKnLhN9mDh//v+uqgI5mpwJLB/LjUah5hpogZiCH4qSrT06d7C/M/01xvGgRpy09CNamiwlVu0InHaL53OTxga9CeMOoEr7GLhUiqb6sTNR7hMbwwQUFNnIT+v0LcGGdCP1yaQDU+txIkAjhfXhT9PEJHWparkPD1PqX0n0xFEs=
+  app:
+    master: secure-earth-87675
