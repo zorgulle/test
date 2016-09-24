@@ -8,7 +8,7 @@ def reply(msg=None):
 
 @app.route('/')
 def index():
-    return "Heroku Test"
+    return "Index"
 
 if __name__ == '__main__':
     app.run()
