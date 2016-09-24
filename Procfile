@@ -1,1 +1,1 @@
-web: gunicorn main:app --log-file -
+web: gunicorn secure-earth-87675:app --log-file -
