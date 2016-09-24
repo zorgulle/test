@@ -1,5 +1,9 @@
 language: python
 version:
-    - "3.4"
-install: "pip install -r requirements.txt"
+- '3.4'
+install: pip install -r requirements.txt
 script: py.test tests.py
+deploy:
+  provider: heroku
+  api_key:
+    secure: bKnLhN9mDh//v+uqgI5mpwJLB/LjUah5hpogZiCH4qSrT06d7C/M/01xvGgRpy09CNamiwlVu0InHaL53OTxga9CeMOoEr7GLhUiqb6sTNR7hMbwwQUFNnIT+v0LcGGdCP1yaQDU+txIkAjhfXhT9PEJHWparkPD1PqX0n0xFEs=
