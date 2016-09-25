@@ -2,10 +2,11 @@ from flask import Flask
 from flask import render_template
 from flask import request
 
+
+from translator import process_translation
+
 app = Flask(__name__)
 
-def process_translation(msg=None):
-    return msg
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
